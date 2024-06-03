@@ -4,7 +4,9 @@
 	<head>
 		<title>Home</title>
 		<meta charset="utf-8" />
+
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -37,90 +39,109 @@
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
 							</ul>
 						</div>
-					</section>
-					<!-- Content 1 -->
-					<div class="wrapper">
-						<div class="inner">
-		
-							<section>
-								<h3 class="major">Unit Work</h3>
-								<div class="table-wrapper">
-									<table>
-										<thead>
-											<tr>
-												<th>Name</th>
-												<th>Unit(s)</th>
-												<th>Description & Link</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Collaborative Discussion 1</td>
-												<td>1, 2, 3</td>
-												<td><a href="Learningoutcome1.html" target="_blank">Read an article about project failures and answer questions
-													about our opinions on causes of project failure. 
-												</a></td>
-											</tr>
-											<tr>
-												<td>Gherkin Statements</td>
-												<td>2</td>
-												<td><a href="Gherkin.html" target="_blank">Create a sequence of Gherkin statements describing some behaviours
-													involved in interacting with a new coffee machine. 
-												</a></td>
-											</tr>
-											<tr>
-												<td>Data Structures</td>
-												<td>3</td>
-												<td><a href="datastructures.html" target="_blank">Consider what data structures might be used in the backend 
-													of an online system that you frequently use. 
-												</a></td>
-											</tr>
-											<tr>
-												<td>Collaborative Discussion 2</td>
-												<td>5, 7, 8</td>
-												<td><a href="colloborativetwo.html" target="_blank">Review a model for measuring user experience and consider 
-													how we might adapt it for changing emotions over time.
-												</a></td>
-											</tr>
-											<tr>
-												<td>PyTest</td>
-												<td>6</td>
-												<td><a href="pytest.html" target="_blank">Run some unit tests with PyTest on a simple wallet. Change the code to make the 
-													tests fail. 
-												</a></td>
-											</tr>
-											<tr>
-												<td>Components of User Experience Model</td>
-												<td>7</td>
-												<td><a href="userexpriencemodel.html" target="_blank">Discuss how a Project Manager might approach an emotional customer. 
-												</a></td>
-											</tr>
-											<tr>
-												<td>Improving Code Quality</td>
-												<td>9</td>
-												<td><a href="sepm/sepm-improving-code-quality.html" target="_blank">Follow guidance on improving overall code quality, then Implement
-													improvements on some of my old code. 
-												</a></td>
-											</tr>
-											<tr>
-												<td>Comparing Linters</td>
-												<td>10</td>
-												<td><a href="comparinglinters.html" target="_blank">Test some bad code against multiple code quality tools and compare the 
-													outputs.
-												</a></td>
-											</tr>
-										</tbody>
-										<tfoot>
-											<tr>
-												<td colspan="1"></td>
-											</tr>
-										</tfoot>
-									</table>
-								</div>  
-							</section>
-						</div>
-					</div>
-		
+					
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+		<!-- card 1 -->
+			<div class="card h-100">
+			  <img src="./images/discussion1.JPG" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Colloborative Discussion one: Failed Projects</h5>
+				<p class="card-text">there three main reasons for project failure: unclear goals, scope creep, and poor communication</p>
+				  <a href="Learningoutcome1.html" class="btn btn-primary">View page</a>
+			  </div>
+			</div>
+		  </div>
+		  <!-- card 2 -->
+		  <div class="col">
+			<div class="card h-100">
+  
+			  <img src="./images/Discussion2.JPG" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Collobarative Discusion 2: User Experience (UX) Design</h5>
+				<p class="card-text">As UX professionals, it is crucial to understand the role of emotions in shaping user experiences.</p>
+				<a href="colloborativetwo.html" class="btn btn-primary">View page</a>
+			  </div>
+			</div>
+		  </div>
+		  <!-- card 3 -->
+		  <div class="col">
+			<div class="card h-100">
+  
+			  <img src="./images/mainReflection.JPG" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Module Overall Reflection</h5>
+				<p class="card-text">Only by diligently advancing in a harmonized manner across all of these 
+				  dimensions can I truly progress towards embodying software engineering mastery. </p>
+				<a href="Modulereflection.html" class="btn btn-primary">View page</a>
+			  </div>
+			</div>
+		  </div>
+		  <!-- card 4 -->
+		  <div class="col">
+			<div class="card h-100">
+  
+			  <img src="./images/pylint.JPG" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Comparing Linters</h5>
+				<p class="card-text">All of these tools serve the same overarching purpose, but with specific differences that make them useful. Of the four tools 
+				  tested, I would say that PyLint appears to be the most 'all-rounded' tool, for checking most things in the code. </p>
+				  <a href="comparinglinters.html" class="btn btn-primary">Go Comparing Linters</a>
+			  </div>
+			</div>
+		  </div>
+		  <!-- card 5 -->
+		  <div class="card h-100">
+			<img src="./images/dtastru.JPG" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Data Structures</h5>
+			  <p class="card-text">Data structures are specialized formats for organizing, storing, and managing data efficiently in computer memory. They include arrays, linked lists, stacks, queues, trees, graphs, and hash tables, 
+				each with its own strengths and trade-offs in terms of memory usage, access speed, and supported operations.</p>
+				<a href="datastructures.html" class="btn btn-primary">View page</a>
+			</div>
+		  </div>
+		</div>
+		<!-- card 6 -->
+		<div class="col">
+		  <div class="card h-100">
+  
+			<img src="./images/pytest.JPG" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Learning PyTest</h5>
+			  <p class="card-text">Pytest is a testing framework for Python that simplifies writing and running unit tests. Unit tests ensure individual units or components of code work as expected. With pytest, you define test functions 
+				and use assertions to verify the expected behavior, making it easier to catch bugs early and maintain code quality.</p>
+			  <a href="pytest.html" class="btn btn-primary">View page</a>
+			</div>
+		  </div>
+		</div>
+		<!-- card 7 -->
+		<div class="col">
+		  <div class="card h-100">
+  
+			<img src="./images/ux.JPG" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Components of User Experience</h5>
+			  <p class="card-text">There is not only one correct answer to the question of how to manage emotional customer reactions, it will always be 
+				dependent on context and character,</p>
+			  <a href="userexpriencemodel.html" class="btn btn-primary">View page</a>
+			</div>
+		  </div>
+		</div>
+		<!-- card 8 -->
+		<div class="col">
+		  <div class="card h-100">
+  
+			<img src="./images/Gherkin.JPG" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Gherkin Language and statements</h5>
+			  <p class="card-text">Gherkin is a language used for writing Behavior-Driven Development (BDD) test cases. It uses a structured format with Given, When, Then statements to define the initial context, actions performed, 
+				and expected outcomes for each scenario. This makes test cases readable, reusable, and understandable to non-technical stakeholders. </p>
+				<a href="Gherkin.html" class="btn btn-primary">Go Comparing Linters</a>
+			</div>
+		  </div>
+		</div>
+		</div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
